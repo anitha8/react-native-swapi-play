@@ -64,9 +64,7 @@ class SelectDropDownList extends Component {
 
         const item = selectedItems[0];
         const foundItem = this.findItem(item);
-        console.log("selected itemmmmmmmm"+ foundItem);
         const getItemname = get(foundItem, displayKey);
-        console.log("get select labe;;;;;;;>"+getItemname+ placeHolderText);
         return getItemname || placeHolderText;
     };
 

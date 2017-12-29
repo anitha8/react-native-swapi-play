@@ -18,12 +18,7 @@ import { Actions } from "react-native-router-flux/index";
 
 const SWAPIConfig = {
     baseUrl: 'http://swapi.co/api/',
-    planetsEndpoint: 'planets/',
-    starshipsEndpoint: 'starships/',
-    vehiclesEndpoint: 'vehicles/',
     peopleEndpoint: 'people/',
-    filmsEndpoint: 'films/',
-    speciesEndpoint: 'species/',
 };
 var REQUEST_URL = SWAPIConfig.baseUrl + SWAPIConfig.peopleEndpoint;
 
@@ -51,7 +46,6 @@ export default class Form extends Component {
 
     _onPress() {
         if (this.state.userName == "" || this.state.password == "") {
-            console.log("username>>>>>>>>>>>>>>>."+this.state.userName)
             this.setState({errorMsg: "Please check your UserName or Password"});
             return;
         }
@@ -81,7 +75,6 @@ export default class Form extends Component {
         find(this.state.people, (singleItem, index) =>
             {
                 if (singleItem.name === this.state.userName && singleItem.birth_year === this.state.password) {
-                    console.log("selected index>>>>>>>>"+ index);
                     userId = index;
                 }
             });
@@ -89,7 +82,7 @@ export default class Form extends Component {
     };
 
     fetchData() {
-        console.log("fetch enter>>>"+ REQUEST_URL);
+        console.log("fetch enter planet URL"+ REQUEST_URL);
         fetch(REQUEST_URL)
             .then((response) => response.json())
             .then((responseData) => {
@@ -98,9 +91,7 @@ export default class Form extends Component {
                     isLoading: true
                 });
                 const index = this.findItem();
-                console.log(">>>>>>>>.11111"+index);
                 if (index >= 0) {
-                    console.log("render searchh screen");
                     Actions.secondScreen();
                 }
             })

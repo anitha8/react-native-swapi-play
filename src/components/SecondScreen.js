@@ -19,11 +19,6 @@ var count = 0;
 const SWAPIConfig = {
     baseUrl: 'http://swapi.co/api/',
     planetsEndpoint: 'planets/',
-    starshipsEndpoint: 'starships/',
-    vehiclesEndpoint: 'vehicles/',
-    peopleEndpoint: 'people/',
-    filmsEndpoint: 'films/',
-    speciesEndpoint: 'species/',
 };
 var REQUEST_URL = SWAPIConfig.baseUrl + SWAPIConfig.planetsEndpoint;
 
@@ -70,19 +65,16 @@ export default class SecondScreen extends Component {
     onSelectedItemsChange = selectedItems => {
 		const { completeData, completeSelectedData } = this.state;
 		this.setState({completeSelectedData: completeData[selectedItems]});
-		console.log(this.state.completeSelectedData);
         this.setState({ selectedItems });
     };
 
     fetchPlanetData() {
-        console.log("fetch enter>>>"+ REQUEST_URL);
         let planetData = [];
         fetch(REQUEST_URL)
             .then((response) => response.json())
             .then((responseData) => {
             	this.setState({completeData: responseData.results});
             	for(i=0;i<responseData.results.length;i++){
-                    console.log("nameeeeeeeeeeeee"+parseInt(responseData.results[i].population, 10));
 					let population = parseInt(responseData.results[i].population, 10) || 0;
 
                     planetData.push({
@@ -110,7 +102,6 @@ export default class SecondScreen extends Component {
                 });
             })
             .done();
-        console.log(">>>>>>");
     }
 
 
