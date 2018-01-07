@@ -96,7 +96,6 @@ export default class Form extends Component {
                 }
             })
             .done();
-        console.log(">>>>>>"+this.state.people);
     }
 
     _onGrow() {
