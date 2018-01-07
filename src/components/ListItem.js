@@ -29,19 +29,20 @@ class ListItem extends Component {
             gradientColor
         } = this.props;
         return (
-            <TouchableOpacity
-                disabled={selectedItemFlag}
-                onPress={onPress}>
-                <View style={[styles.rowItems, {backgroundColor: gradientColor}]}>
-                    <Text
-                        style={[
-                            styles.disabledMenu,
-                            selectedItemFlag ? { color: 'grey' } : { color: 'black' },
-                        ]}>
-                        {itemText}
-                    </Text>
-                </View>
-            </TouchableOpacity>
+            <View>
+                <TouchableOpacity
+                    onPress={onPress}>
+                    <View style={[styles.rowItems, {backgroundColor: gradientColor}]}>
+                        <Text
+                            style={[
+                                styles.disabledMenu,
+                                selectedItemFlag ? { color: 'grey' } : { color: 'black' },
+                            ]}>
+                            {itemText}
+                        </Text>
+                    </View>
+                </TouchableOpacity>
+            </View>
         );
     }
 }
@@ -56,8 +57,8 @@ const styles = StyleSheet.create({
     rowItems: {
         flexDirection: "row",
         alignItems: "center",
-        paddingLeft: 20,
-        paddingRight: 20,
+        height: 40,
+        justifyContent:"center"
     },
 });
 

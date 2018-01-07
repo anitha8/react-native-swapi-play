@@ -4,11 +4,13 @@ import {
 	View,
 	Image,
 	TouchableOpacity,
+    ImageBackground,
 	Animated,
 	Easing,
 	Text,
 } from 'react-native';
 import Dimensions from 'Dimensions';
+import bgSrc from '../images/wallpaper.png';
 
 import { Actions } from 'react-native-router-flux';
 import SelectDropDownList from "./SelectDropDownList";
@@ -17,7 +19,7 @@ import arrowImg from '../images/left-arrow.png';
 const SIZE = 40;
 var count = 0;
 const SWAPIConfig = {
-    baseUrl: 'http://swapi.co/api/',
+    baseUrl: 'https://swapi.co/api/',
     planetsEndpoint: 'planets/',
 };
 var REQUEST_URL = SWAPIConfig.baseUrl + SWAPIConfig.planetsEndpoint;
@@ -175,7 +177,7 @@ export default class SecondScreen extends Component {
         return code;
     }
 
-    _onPress() {
+    onPress() {
 		Actions.pop();
     }
     render() {
@@ -186,24 +188,28 @@ export default class SecondScreen extends Component {
 			outputRange: [1, SIZE],
 		});
 		return (
-			<View style={styles.container}>
-                <SelectDropDownList
-                    items={items}
-                    onSelectedItemsChange={this.onSelectedItemsChange}
-                    selectedItems={selectedItems}
-                    placeHolderText="Type planet name"
-                />
-				<Text style={{fontSize: 16, color: '#111',paddingLeft:10, borderWidth:1, borderColor:"#111" }}>
-					{completeSelectedData.population + '\n' + completeSelectedData.climate }
-				</Text>
-                <Animated.View style={{width: DEVICE_WIDTH - MARGIN}}>
-					<TouchableOpacity style={styles.button}
-									   onPress={this._onPress}
-									   activeOpacity={1} >
-						<Text style={styles.text}>LOG OUT</Text>
-					</TouchableOpacity>
-                </Animated.View>
-			</View>
+            <ImageBackground style={styles.container} source={bgSrc}>
+                <View style={[styles.container, styles.list]}>
+                    <SelectDropDownList
+                        items={items}
+                        onSelectedItemsChange={this.onSelectedItemsChange}
+                        selectedItems={selectedItems}
+                        placeHolderText="Type planet name"
+                    />
+                    <Text style={{fontSize: 16, color: '#111',paddingLeft:10, borderWidth:1, borderColor:"#111" }}>
+                        {"Population: " + completeSelectedData.population + '\n\n' +
+                          "Climate: " + completeSelectedData.climate + '\n\n' +
+                          "Terrain: " + completeSelectedData.terrain}
+                    </Text>
+                    <Animated.View style={{width: DEVICE_WIDTH - MARGIN}}>
+                        <TouchableOpacity style={styles.button}
+                                           onPress={this.onPress}
+                                           activeOpacity={1} >
+                            <Text style={styles.text}>LOG OUT</Text>
+                        </TouchableOpacity>
+                    </Animated.View>
+                </View>
+            </ImageBackground>
 		);
 	}
 }
@@ -215,6 +221,9 @@ const styles = StyleSheet.create({
 	container: {
 		flex: 1,
 	},
+    list:{
+	    marginTop: 20,
+    },
 	circle: {
 		height: SIZE,
 		width: SIZE,

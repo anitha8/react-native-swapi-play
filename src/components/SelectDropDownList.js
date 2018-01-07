@@ -43,6 +43,7 @@ class SelectDropDownList extends Component {
         this.state = {
             selector: false,
             searchTerm: "",
+            textColor: '#f0f1f1'
         };
     }
 
@@ -72,6 +73,15 @@ class SelectDropDownList extends Component {
         this.setState({
             selector: !this.state.selector,
         });
+        const {
+            selectedItems,
+            displayKey,
+            placeHolderText,
+        } = this.props;
+        const item = selectedItems[0];
+        const foundItem = this.findItem(item);
+        const getItemname = get(foundItem, displayKey);
+        this.setState({ textColor: getItemname != placeHolderText && 'black' || '#f0f1f1' });
     };
 
     submitSelection = () => {
@@ -132,7 +142,6 @@ class SelectDropDownList extends Component {
             component = (
                 <FlatList
                     data={renderItems}
-                    extraData={selectedItems}
                     keyExtractor={item => item[uniqueKey]}
                     renderItem={rowData => this.getRow(rowData.item)}
                 />
@@ -142,7 +151,7 @@ class SelectDropDownList extends Component {
     };
 
     render() {
-        const { selector } = this.state;
+        const { selector, textColor } = this.state;
         const { placeHolderText } = this.props;
         let listStyle = selector ? styles.selectorView : styles.dropdownView;
         let text;
@@ -152,13 +161,13 @@ class SelectDropDownList extends Component {
             text = <TextInput
                 onChangeText={this.onChangeInput}
                 placeholder={placeHolderText}
-                placeholderTextColor={'black'}
+                placeholderTextColor={'#f0f1f1'}
                 underlineColorAndroid="transparent"
                 style={styles.container}
             />;
         } else {
             text = <Text
-                style={styles.container}
+                style={[styles.container, {color: textColor}]}
                 >{this.getSelectLabel()}
                 </Text>;
         }
@@ -189,7 +198,6 @@ class SelectDropDownList extends Component {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        color: 'black',
     },
     indicator: {
         height: 10,
@@ -205,9 +213,6 @@ const styles = StyleSheet.create({
         flexDirection: "row",
         alignItems: "center",
         paddingLeft: 15,
-        paddingTop: 3,
-        paddingRight: 3,
-        paddingBottom: 3,
         margin: 3,
         borderRadius: 20,
         borderWidth: 2,
@@ -229,6 +234,8 @@ const styles = StyleSheet.create({
         paddingLeft: 16,
         backgroundColor: 'white',
         height: 40,
+        borderBottomWidth: 1,
+        borderBottomColor: 'black',
     },
     dropdownView: {
         flexDirection: "column",

@@ -1,0 +1,267 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "alignItems": "center",
+      "flex": 1,
+      "flexDirection": "column",
+    }
+  }
+>
+  <View
+    keyboardVerticalOffset={0}
+    onLayout={[Function]}
+    style={
+      Array [
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "column",
+        },
+        Object {
+          "paddingBottom": 0,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <Image
+        source={
+          Object {
+            "testUri": "../../../src/images/username.png",
+          }
+        }
+        style={
+          Object {
+            "height": 22,
+            "left": 35,
+            "position": "absolute",
+            "top": 9,
+            "width": 22,
+            "zIndex": 99,
+          }
+        }
+      />
+      <TextInput
+        allowFontScaling={true}
+        autoCapitalize="none"
+        autoCorrect={false}
+        onChangeText={[Function]}
+        placeholder="Username"
+        placeholderTextColor="white"
+        returnKeyType="done"
+        secureTextEntry={undefined}
+        style={
+          Object {
+            "backgroundColor": "rgba(255, 255, 255, 0.4)",
+            "borderRadius": 20,
+            "color": "#ffffff",
+            "height": 40,
+            "marginHorizontal": 20,
+            "paddingLeft": 45,
+            "width": 710,
+          }
+        }
+        underlineColorAndroid="transparent"
+      />
+    </View>
+    <View
+      style={
+        Object {
+          "flex": 1,
+          "flexDirection": "row",
+        }
+      }
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+          }
+        }
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/images/password.png",
+            }
+          }
+          style={
+            Object {
+              "height": 22,
+              "left": 35,
+              "position": "absolute",
+              "top": 9,
+              "width": 22,
+              "zIndex": 99,
+            }
+          }
+        />
+        <TextInput
+          allowFontScaling={true}
+          autoCapitalize="none"
+          autoCorrect={false}
+          onChangeText={[Function]}
+          placeholder="Password"
+          placeholderTextColor="white"
+          returnKeyType="done"
+          secureTextEntry={true}
+          style={
+            Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.4)",
+              "borderRadius": 20,
+              "color": "#ffffff",
+              "height": 40,
+              "marginHorizontal": 20,
+              "paddingLeft": 45,
+              "width": 710,
+            }
+          }
+          underlineColorAndroid="transparent"
+        />
+      </View>
+      <View
+        accessibilityComponentType={undefined}
+        accessibilityLabel={undefined}
+        accessibilityTraits={undefined}
+        accessible={true}
+        collapsable={undefined}
+        hitSlop={undefined}
+        isTVSelectable={true}
+        nativeID={undefined}
+        onLayout={undefined}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Object {
+            "alignItems": "flex-end",
+            "justifyContent": "flex-start",
+            "opacity": 1,
+            "paddingRight": 40,
+            "paddingTop": 10,
+          }
+        }
+        testID={undefined}
+        tvParallaxProperties={undefined}
+      >
+        <Image
+          source={
+            Object {
+              "testUri": "../../../src/images/eye_black.png",
+            }
+          }
+          style={
+            Object {
+              "height": 25,
+              "tintColor": "rgba(0,0,0,0.2)",
+              "width": 25,
+            }
+          }
+        />
+      </View>
+    </View>
+  </View>
+  <Text
+    accessible={true}
+    allowFontScaling={true}
+    ellipsizeMode="tail"
+    style={
+      Object {
+        "color": "red",
+        "fontSize": 16,
+        "paddingBottom": 80,
+      }
+    }
+  >
+    
+  </Text>
+  <View
+    collapsable={undefined}
+    style={
+      Object {
+        "width": 710,
+      }
+    }
+  >
+    <View
+      accessibilityComponentType={undefined}
+      accessibilityLabel={undefined}
+      accessibilityTraits={undefined}
+      accessible={true}
+      collapsable={undefined}
+      hitSlop={undefined}
+      isTVSelectable={true}
+      nativeID={undefined}
+      onLayout={undefined}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "alignItems": "center",
+          "backgroundColor": "#F035E0",
+          "borderRadius": 20,
+          "height": 40,
+          "justifyContent": "center",
+          "marginBottom": 90,
+          "opacity": 1,
+          "zIndex": 100,
+        }
+      }
+      testID={undefined}
+      tvParallaxProperties={undefined}
+    >
+      <Text
+        accessible={true}
+        allowFontScaling={true}
+        ellipsizeMode="tail"
+        style={
+          Object {
+            "backgroundColor": "transparent",
+            "color": "white",
+          }
+        }
+      >
+        LOGIN
+      </Text>
+    </View>
+    <View
+      collapsable={undefined}
+      style={
+        Object {
+          "alignSelf": "center",
+          "backgroundColor": "#F035E0",
+          "borderColor": "#F035E0",
+          "borderRadius": 100,
+          "borderWidth": 1,
+          "height": 40,
+          "marginBottom": 90,
+          "marginTop": -130,
+          "transform": Array [
+            Object {
+              "scale": 1,
+            },
+          ],
+          "width": 40,
+          "zIndex": 99,
+        }
+      }
+    />
+  </View>
+</View>
+`;

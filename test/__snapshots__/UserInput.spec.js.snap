@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+    }
+  }
+>
+  <Image
+    source={undefined}
+    style={
+      Object {
+        "height": 22,
+        "left": 35,
+        "position": "absolute",
+        "top": 9,
+        "width": 22,
+        "zIndex": 99,
+      }
+    }
+  />
+  <TextInput
+    allowFontScaling={true}
+    autoCapitalize={undefined}
+    autoCorrect={undefined}
+    onChangeText={undefined}
+    placeholder={undefined}
+    placeholderTextColor="white"
+    returnKeyType={undefined}
+    secureTextEntry={undefined}
+    style={
+      Object {
+        "backgroundColor": "rgba(255, 255, 255, 0.4)",
+        "borderRadius": 20,
+        "color": "#ffffff",
+        "height": 40,
+        "marginHorizontal": 20,
+        "paddingLeft": 45,
+        "width": 710,
+      }
+    }
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

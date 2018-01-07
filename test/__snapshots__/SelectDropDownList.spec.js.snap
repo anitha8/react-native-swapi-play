@@ -1,0 +1,644 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Testing SelectDropDownList Component Check SelectDropDownList Snapshot 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "height": 40,
+        "marginBottom": 10,
+      }
+    }
+  >
+    <TouchableWithoutFeedback
+      onPress={[Function]}
+    >
+      <View
+        style={
+          Object {
+            "alignItems": "center",
+            "backgroundColor": "white",
+            "borderBottomColor": "black",
+            "borderBottomWidth": 1,
+            "flexDirection": "row",
+            "height": 40,
+            "paddingLeft": 16,
+          }
+        }
+      >
+        <Text
+          accessible={true}
+          allowFontScaling={true}
+          ellipsizeMode="tail"
+          style={
+            Array [
+              Object {
+                "flex": 1,
+              },
+              Object {
+                "color": "#f0f1f1",
+              },
+            ]
+          }
+        >
+          Type network name
+        </Text>
+        <View
+          style={
+            Object {
+              "paddingBottom": 10,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 10,
+            }
+          }
+        >
+          <Image
+            source={
+              Object {
+                "testUri": "../../../src/images/password.png",
+              }
+            }
+            style={
+              Object {
+                "height": 10,
+                "width": 20,
+              }
+            }
+          />
+        </View>
+      </View>
+    </TouchableWithoutFeedback>
+  </View>,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <TouchableWithoutFeedback
+          onPress={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "black",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "paddingLeft": 16,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                  },
+                  Object {
+                    "color": "#f0f1f1",
+                  },
+                ]
+              }
+            >
+              Type network name
+            </Text>
+            <View
+              style={
+                Object {
+                  "paddingBottom": 10,
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 10,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/images/password.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 10,
+                    "width": 20,
+                  }
+                }
+              />
+            </View>
+          </View>
+        </TouchableWithoutFeedback>,
+        undefined,
+      ],
+      "style": Object {
+        "alignItems": "center",
+        "flexDirection": "column",
+        "height": 40,
+        "marginBottom": 10,
+      },
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "class",
+        "props": Object {
+          "children": <View
+            style={
+              Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "black",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "paddingLeft": 16,
+              }
+            }
+          >
+            <Text
+              accessible={true}
+              allowFontScaling={true}
+              ellipsizeMode="tail"
+              style={
+                Array [
+                  Object {
+                    "flex": 1,
+                  },
+                  Object {
+                    "color": "#f0f1f1",
+                  },
+                ]
+              }
+            >
+              Type network name
+            </Text>
+            <View
+              style={
+                Object {
+                  "paddingBottom": 10,
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 10,
+                }
+              }
+            >
+              <Image
+                source={
+                  Object {
+                    "testUri": "../../../src/images/password.png",
+                  }
+                }
+                style={
+                  Object {
+                    "height": 10,
+                    "width": 20,
+                  }
+                }
+              />
+            </View>
+          </View>,
+          "onPress": [Function],
+        },
+        "ref": null,
+        "rendered": Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": Array [
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                    },
+                    Object {
+                      "color": "#f0f1f1",
+                    },
+                  ]
+                }
+              >
+                Type network name
+              </Text>,
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 10,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/images/password.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 10,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>,
+            ],
+            "style": Object {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderBottomColor": "black",
+              "borderBottomWidth": 1,
+              "flexDirection": "row",
+              "height": 40,
+              "paddingLeft": 16,
+            },
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "accessible": true,
+                "allowFontScaling": true,
+                "children": "Type network name",
+                "ellipsizeMode": "tail",
+                "style": Array [
+                  Object {
+                    "flex": 1,
+                  },
+                  Object {
+                    "color": "#f0f1f1",
+                  },
+                ],
+              },
+              "ref": null,
+              "rendered": "Type network name",
+              "type": [Function],
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "class",
+              "props": Object {
+                "children": <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/images/password.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 10,
+                      "width": 20,
+                    }
+                  }
+                />,
+                "style": Object {
+                  "paddingBottom": 10,
+                  "paddingLeft": 10,
+                  "paddingRight": 10,
+                  "paddingTop": 10,
+                },
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "source": Object {
+                    "testUri": "../../../src/images/password.png",
+                  },
+                  "style": Object {
+                    "height": 10,
+                    "width": 20,
+                  },
+                },
+                "ref": null,
+                "rendered": null,
+                "type": [Function],
+              },
+              "type": [Function],
+            },
+          ],
+          "type": [Function],
+        },
+        "type": [Function],
+      },
+      undefined,
+    ],
+    "type": "View",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <TouchableWithoutFeedback
+            onPress={[Function]}
+          >
+            <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomColor": "black",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "height": 40,
+                  "paddingLeft": 16,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                    },
+                    Object {
+                      "color": "#f0f1f1",
+                    },
+                  ]
+                }
+              >
+                Type network name
+              </Text>
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 10,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/images/password.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 10,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+            </View>
+          </TouchableWithoutFeedback>,
+          undefined,
+        ],
+        "style": Object {
+          "alignItems": "center",
+          "flexDirection": "column",
+          "height": 40,
+          "marginBottom": 10,
+        },
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "class",
+          "props": Object {
+            "children": <View
+              style={
+                Object {
+                  "alignItems": "center",
+                  "backgroundColor": "white",
+                  "borderBottomColor": "black",
+                  "borderBottomWidth": 1,
+                  "flexDirection": "row",
+                  "height": 40,
+                  "paddingLeft": 16,
+                }
+              }
+            >
+              <Text
+                accessible={true}
+                allowFontScaling={true}
+                ellipsizeMode="tail"
+                style={
+                  Array [
+                    Object {
+                      "flex": 1,
+                    },
+                    Object {
+                      "color": "#f0f1f1",
+                    },
+                  ]
+                }
+              >
+                Type network name
+              </Text>
+              <View
+                style={
+                  Object {
+                    "paddingBottom": 10,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                  }
+                }
+              >
+                <Image
+                  source={
+                    Object {
+                      "testUri": "../../../src/images/password.png",
+                    }
+                  }
+                  style={
+                    Object {
+                      "height": 10,
+                      "width": 20,
+                    }
+                  }
+                />
+              </View>
+            </View>,
+            "onPress": [Function],
+          },
+          "ref": null,
+          "rendered": Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "class",
+            "props": Object {
+              "children": Array [
+                <Text
+                  accessible={true}
+                  allowFontScaling={true}
+                  ellipsizeMode="tail"
+                  style={
+                    Array [
+                      Object {
+                        "flex": 1,
+                      },
+                      Object {
+                        "color": "#f0f1f1",
+                      },
+                    ]
+                  }
+                >
+                  Type network name
+                </Text>,
+                <View
+                  style={
+                    Object {
+                      "paddingBottom": 10,
+                      "paddingLeft": 10,
+                      "paddingRight": 10,
+                      "paddingTop": 10,
+                    }
+                  }
+                >
+                  <Image
+                    source={
+                      Object {
+                        "testUri": "../../../src/images/password.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 10,
+                        "width": 20,
+                      }
+                    }
+                  />
+                </View>,
+              ],
+              "style": Object {
+                "alignItems": "center",
+                "backgroundColor": "white",
+                "borderBottomColor": "black",
+                "borderBottomWidth": 1,
+                "flexDirection": "row",
+                "height": 40,
+                "paddingLeft": 16,
+              },
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "accessible": true,
+                  "allowFontScaling": true,
+                  "children": "Type network name",
+                  "ellipsizeMode": "tail",
+                  "style": Array [
+                    Object {
+                      "flex": 1,
+                    },
+                    Object {
+                      "color": "#f0f1f1",
+                    },
+                  ],
+                },
+                "ref": null,
+                "rendered": "Type network name",
+                "type": [Function],
+              },
+              Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "class",
+                "props": Object {
+                  "children": <Image
+                    source={
+                      Object {
+                        "testUri": "../../../src/images/password.png",
+                      }
+                    }
+                    style={
+                      Object {
+                        "height": 10,
+                        "width": 20,
+                      }
+                    }
+                  />,
+                  "style": Object {
+                    "paddingBottom": 10,
+                    "paddingLeft": 10,
+                    "paddingRight": 10,
+                    "paddingTop": 10,
+                  },
+                },
+                "ref": null,
+                "rendered": Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "class",
+                  "props": Object {
+                    "source": Object {
+                      "testUri": "../../../src/images/password.png",
+                    },
+                    "style": Object {
+                      "height": 10,
+                      "width": 20,
+                    },
+                  },
+                  "ref": null,
+                  "rendered": null,
+                  "type": [Function],
+                },
+                "type": [Function],
+              },
+            ],
+            "type": [Function],
+          },
+          "type": [Function],
+        },
+        undefined,
+      ],
+      "type": "View",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
