@@ -6,10 +6,9 @@ import {
     View,
     Image,
 } from 'react-native';
-
 import Main from './src/components/Main';
 
-export default class loginAnimation extends Component {
+export default class App extends Component {
     render() {
         return (
             <View style={styles.container}>
@@ -25,5 +24,3 @@ const styles = StyleSheet.create({
         backgroundColor: '#F5FCFF',
     },
 });
-
-AppRegistry.registerComponent('loginAnimation', () => loginAnimation);

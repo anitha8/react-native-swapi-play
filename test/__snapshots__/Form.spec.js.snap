@@ -34,11 +34,7 @@ exports[`renders correctly 1`] = `
       }
     >
       <Image
-        source={
-          Object {
-            "testUri": "../../../src/images/username.png",
-          }
-        }
+        source={1}
         style={
           Object {
             "height": 22,
@@ -51,7 +47,6 @@ exports[`renders correctly 1`] = `
         }
       />
       <TextInput
-        allowFontScaling={true}
         autoCapitalize="none"
         autoCorrect={false}
         onChangeText={[Function]}
@@ -89,11 +84,7 @@ exports[`renders correctly 1`] = `
         }
       >
         <Image
-          source={
-            Object {
-              "testUri": "../../../src/images/password.png",
-            }
-          }
+          source={1}
           style={
             Object {
               "height": 22,
@@ -106,7 +97,6 @@ exports[`renders correctly 1`] = `
           }
         />
         <TextInput
-          allowFontScaling={true}
           autoCapitalize="none"
           autoCorrect={false}
           onChangeText={[Function]}
@@ -157,11 +147,7 @@ exports[`renders correctly 1`] = `
         tvParallaxProperties={undefined}
       >
         <Image
-          source={
-            Object {
-              "testUri": "../../../src/images/eye_black.png",
-            }
-          }
+          source={1}
           style={
             Object {
               "height": 25,
@@ -176,6 +162,7 @@ exports[`renders correctly 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    disabled={false}
     ellipsizeMode="tail"
     style={
       Object {
@@ -229,6 +216,7 @@ exports[`renders correctly 1`] = `
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Object {

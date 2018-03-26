@@ -33,6 +33,7 @@ ShallowWrapper {
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -58,11 +59,7 @@ ShallowWrapper {
           }
         >
           <Image
-            source={
-              Object {
-                "testUri": "../../../src/images/password.png",
-              }
-            }
+            source={1}
             style={
               Object {
                 "height": 10,
@@ -106,6 +103,7 @@ ShallowWrapper {
             <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Array [
@@ -131,11 +129,7 @@ ShallowWrapper {
               }
             >
               <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/images/password.png",
-                  }
-                }
+                source={1}
                 style={
                   Object {
                     "height": 10,
@@ -178,6 +172,7 @@ ShallowWrapper {
             <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Array [
@@ -203,11 +198,7 @@ ShallowWrapper {
               }
             >
               <Image
-                source={
-                  Object {
-                    "testUri": "../../../src/images/password.png",
-                  }
-                }
+                source={1}
                 style={
                   Object {
                     "height": 10,
@@ -229,6 +220,7 @@ ShallowWrapper {
               <Text
                 accessible={true}
                 allowFontScaling={true}
+                disabled={false}
                 ellipsizeMode="tail"
                 style={
                   Array [
@@ -254,11 +246,7 @@ ShallowWrapper {
                 }
               >
                 <Image
-                  source={
-                    Object {
-                      "testUri": "../../../src/images/password.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Object {
                       "height": 10,
@@ -288,6 +276,7 @@ ShallowWrapper {
                 "accessible": true,
                 "allowFontScaling": true,
                 "children": "Type network name",
+                "disabled": false,
                 "ellipsizeMode": "tail",
                 "style": Array [
                   Object {
@@ -308,11 +297,7 @@ ShallowWrapper {
               "nodeType": "class",
               "props": Object {
                 "children": <Image
-                  source={
-                    Object {
-                      "testUri": "../../../src/images/password.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Object {
                       "height": 10,
@@ -333,9 +318,7 @@ ShallowWrapper {
                 "key": undefined,
                 "nodeType": "class",
                 "props": Object {
-                  "source": Object {
-                    "testUri": "../../../src/images/password.png",
-                  },
+                  "source": 1,
                   "style": Object {
                     "height": 10,
                     "width": 20,
@@ -382,6 +365,7 @@ ShallowWrapper {
               <Text
                 accessible={true}
                 allowFontScaling={true}
+                disabled={false}
                 ellipsizeMode="tail"
                 style={
                   Array [
@@ -407,11 +391,7 @@ ShallowWrapper {
                 }
               >
                 <Image
-                  source={
-                    Object {
-                      "testUri": "../../../src/images/password.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Object {
                       "height": 10,
@@ -454,6 +434,7 @@ ShallowWrapper {
               <Text
                 accessible={true}
                 allowFontScaling={true}
+                disabled={false}
                 ellipsizeMode="tail"
                 style={
                   Array [
@@ -479,11 +460,7 @@ ShallowWrapper {
                 }
               >
                 <Image
-                  source={
-                    Object {
-                      "testUri": "../../../src/images/password.png",
-                    }
-                  }
+                  source={1}
                   style={
                     Object {
                       "height": 10,
@@ -505,6 +482,7 @@ ShallowWrapper {
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  disabled={false}
                   ellipsizeMode="tail"
                   style={
                     Array [
@@ -530,11 +508,7 @@ ShallowWrapper {
                   }
                 >
                   <Image
-                    source={
-                      Object {
-                        "testUri": "../../../src/images/password.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Object {
                         "height": 10,
@@ -564,6 +538,7 @@ ShallowWrapper {
                   "accessible": true,
                   "allowFontScaling": true,
                   "children": "Type network name",
+                  "disabled": false,
                   "ellipsizeMode": "tail",
                   "style": Array [
                     Object {
@@ -584,11 +559,7 @@ ShallowWrapper {
                 "nodeType": "class",
                 "props": Object {
                   "children": <Image
-                    source={
-                      Object {
-                        "testUri": "../../../src/images/password.png",
-                      }
-                    }
+                    source={1}
                     style={
                       Object {
                         "height": 10,
@@ -609,9 +580,7 @@ ShallowWrapper {
                   "key": undefined,
                   "nodeType": "class",
                   "props": Object {
-                    "source": Object {
-                      "testUri": "../../../src/images/password.png",
-                    },
+                    "source": 1,
                     "style": Object {
                       "height": 10,
                       "width": 20,

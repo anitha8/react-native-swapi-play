@@ -1,5 +1,6 @@
 {
   "name": "loginAnimation",
+  "main": "index.js",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -23,8 +24,9 @@
     "android-bundle": "react-native bundle --platform android --dev false --entry-file ./index.android.js --bundle-output ./android/app/src/main/assets/index.android.bundle --sourcemap-output ./android/app/src/main/assets/index.android.map --assets-dest ./android/app/src/main/res/"
   },
   "dependencies": {
+    "expo": "^22.0.0",
     "react": "16.0.0",
-    "react-native": "0.50.1",
+    "react-native": "0.49.3",
     "react-native-router-flux": "^3.37.0"
   },
   "devDependencies": {

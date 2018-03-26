@@ -27,6 +27,7 @@ ShallowWrapper {
         <Text
           accessible={true}
           allowFontScaling={true}
+          disabled={false}
           ellipsizeMode="tail"
           style={
             Array [
@@ -81,6 +82,7 @@ ShallowWrapper {
           <Text
             accessible={true}
             allowFontScaling={true}
+            disabled={false}
             ellipsizeMode="tail"
             style={
               Array [
@@ -126,6 +128,7 @@ ShallowWrapper {
           <Text
             accessible={true}
             allowFontScaling={true}
+            disabled={false}
             ellipsizeMode="tail"
             style={
               Array [
@@ -155,6 +158,7 @@ ShallowWrapper {
           "children": <Text
             accessible={true}
             allowFontScaling={true}
+            disabled={false}
             ellipsizeMode="tail"
             style={
               Array [
@@ -193,6 +197,7 @@ ShallowWrapper {
             "accessible": true,
             "allowFontScaling": true,
             "children": "Abuja",
+            "disabled": false,
             "ellipsizeMode": "tail",
             "style": Array [
               Object {
@@ -244,6 +249,7 @@ ShallowWrapper {
             <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Array [
@@ -289,6 +295,7 @@ ShallowWrapper {
             <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Array [
@@ -318,6 +325,7 @@ ShallowWrapper {
             "children": <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Array [
@@ -356,6 +364,7 @@ ShallowWrapper {
               "accessible": true,
               "allowFontScaling": true,
               "children": "Abuja",
+              "disabled": false,
               "ellipsizeMode": "tail",
               "style": Array [
                 Object {

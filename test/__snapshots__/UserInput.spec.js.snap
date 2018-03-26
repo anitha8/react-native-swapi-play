@@ -22,7 +22,6 @@ exports[`renders correctly 1`] = `
     }
   />
   <TextInput
-    allowFontScaling={true}
     autoCapitalize={undefined}
     autoCorrect={undefined}
     onChangeText={undefined}

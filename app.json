@@ -1,4 +1,5 @@
 {
   "name": "loginAnimation",
-  "displayName": "loginAnimation"
+  "displayName": "loginAnimation",
+  "expo": { "sdkVersion": "22.0.0" }
 }

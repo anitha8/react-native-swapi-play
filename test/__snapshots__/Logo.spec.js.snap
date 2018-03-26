@@ -11,11 +11,7 @@ exports[`renders correctly 1`] = `
   }
 >
   <Image
-    source={
-      Object {
-        "testUri": "../../../src/images/logo.png",
-      }
-    }
+    source={1}
     style={
       Object {
         "height": 80,
@@ -26,6 +22,7 @@ exports[`renders correctly 1`] = `
   <Text
     accessible={true}
     allowFontScaling={true}
+    disabled={false}
     ellipsizeMode="tail"
     style={
       Object {

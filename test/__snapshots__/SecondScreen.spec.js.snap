@@ -5,11 +5,7 @@ ShallowWrapper {
   "length": 1,
   Symbol(enzyme.__root__): [Circular],
   Symbol(enzyme.__unrendered__): <ImageBackground
-    source={
-      Object {
-        "testUri": "../../../src/images/wallpaper.png",
-      }
-    }
+    source={1}
     style={
       Object {
         "flex": 1,
@@ -39,6 +35,7 @@ ShallowWrapper {
       <Text
         accessible={true}
         allowFontScaling={true}
+        disabled={false}
         ellipsizeMode="tail"
         style={
           Object {
@@ -82,6 +79,7 @@ Terrain: undefined
           <Text
             accessible={true}
             allowFontScaling={true}
+            disabled={false}
             ellipsizeMode="tail"
             style={undefined}
           >
@@ -105,11 +103,7 @@ Terrain: undefined
     "props": Object {
       "children": Array [
         <Image
-          source={
-            Object {
-              "testUri": "../../../src/images/wallpaper.png",
-            }
-          }
+          source={1}
           style={
             Array [
               Object {
@@ -150,6 +144,7 @@ Terrain: undefined
           <Text
             accessible={true}
             allowFontScaling={true}
+            disabled={false}
             ellipsizeMode="tail"
             style={
               Object {
@@ -193,6 +188,7 @@ Terrain: undefined
               <Text
                 accessible={true}
                 allowFontScaling={true}
+                disabled={false}
                 ellipsizeMode="tail"
                 style={undefined}
               >
@@ -213,9 +209,7 @@ Terrain: undefined
         "key": undefined,
         "nodeType": "class",
         "props": Object {
-          "source": Object {
-            "testUri": "../../../src/images/wallpaper.png",
-          },
+          "source": 1,
           "style": Array [
             Object {
               "bottom": 0,
@@ -252,6 +246,7 @@ Terrain: undefined
             <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Object {
@@ -295,6 +290,7 @@ Terrain: undefined
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  disabled={false}
                   ellipsizeMode="tail"
                   style={undefined}
                 >
@@ -342,6 +338,7 @@ Terrain: undefined
 Climate: undefined
 
 Terrain: undefined",
+              "disabled": false,
               "ellipsizeMode": "tail",
               "style": Object {
                 "borderColor": "#111",
@@ -383,6 +380,7 @@ Terrain: undefined",
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  disabled={false}
                   ellipsizeMode="tail"
                   style={undefined}
                 >
@@ -403,6 +401,7 @@ Terrain: undefined",
                 "children": <Text
                   accessible={true}
                   allowFontScaling={true}
+                  disabled={false}
                   ellipsizeMode="tail"
                   style={undefined}
                 >
@@ -429,6 +428,7 @@ Terrain: undefined",
                   "accessible": true,
                   "allowFontScaling": true,
                   "children": "LOG OUT",
+                  "disabled": false,
                   "ellipsizeMode": "tail",
                   "style": undefined,
                 },
@@ -454,11 +454,7 @@ Terrain: undefined",
       "props": Object {
         "children": Array [
           <Image
-            source={
-              Object {
-                "testUri": "../../../src/images/wallpaper.png",
-              }
-            }
+            source={1}
             style={
               Array [
                 Object {
@@ -499,6 +495,7 @@ Terrain: undefined",
             <Text
               accessible={true}
               allowFontScaling={true}
+              disabled={false}
               ellipsizeMode="tail"
               style={
                 Object {
@@ -542,6 +539,7 @@ Terrain: undefined
                 <Text
                   accessible={true}
                   allowFontScaling={true}
+                  disabled={false}
                   ellipsizeMode="tail"
                   style={undefined}
                 >
@@ -562,9 +560,7 @@ Terrain: undefined
           "key": undefined,
           "nodeType": "class",
           "props": Object {
-            "source": Object {
-              "testUri": "../../../src/images/wallpaper.png",
-            },
+            "source": 1,
             "style": Array [
               Object {
                 "bottom": 0,
@@ -601,6 +597,7 @@ Terrain: undefined
               <Text
                 accessible={true}
                 allowFontScaling={true}
+                disabled={false}
                 ellipsizeMode="tail"
                 style={
                   Object {
@@ -644,6 +641,7 @@ Terrain: undefined
                   <Text
                     accessible={true}
                     allowFontScaling={true}
+                    disabled={false}
                     ellipsizeMode="tail"
                     style={undefined}
                   >
@@ -691,6 +689,7 @@ Terrain: undefined
 Climate: undefined
 
 Terrain: undefined",
+                "disabled": false,
                 "ellipsizeMode": "tail",
                 "style": Object {
                   "borderColor": "#111",
@@ -732,6 +731,7 @@ Terrain: undefined",
                   <Text
                     accessible={true}
                     allowFontScaling={true}
+                    disabled={false}
                     ellipsizeMode="tail"
                     style={undefined}
                   >
@@ -752,6 +752,7 @@ Terrain: undefined",
                   "children": <Text
                     accessible={true}
                     allowFontScaling={true}
+                    disabled={false}
                     ellipsizeMode="tail"
                     style={undefined}
                   >
@@ -778,6 +779,7 @@ Terrain: undefined",
                     "accessible": true,
                     "allowFontScaling": true,
                     "children": "LOG OUT",
+                    "disabled": false,
                     "ellipsizeMode": "tail",
                     "style": undefined,
                   },
